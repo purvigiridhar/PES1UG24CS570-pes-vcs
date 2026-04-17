@@ -1,4 +1,4 @@
-// index.c — Staging area implementation
+    // index.c — Staging area implementation
 
 #include "index.h"
 #include <stdio.h>
@@ -32,7 +32,7 @@ int index_remove(Index *index, const char *path) {
     }
     fprintf(stderr, "error: '%s' is not in the index\n", path);
     return -1;
-}
+     }
 
 int index_status(const Index *index) {
     printf("Staged changes:\n");
