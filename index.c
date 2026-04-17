@@ -100,7 +100,7 @@ int index_status(const Index *index) {
     return 0;
 }
 
-// ─── IMPLEMENTATION ─────────────────────────────────────────────────────────
+	// ───implementation ─────────────────────────────────────────────────────────
 
 // Load index
 int index_load(Index *index) {
