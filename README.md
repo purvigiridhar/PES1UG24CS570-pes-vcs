@@ -545,7 +545,7 @@ The following questions cover filesystem concepts beyond the implementation scop
 
 ## Submission Checklist
 
-### Screenshots Required
+### Screenshots Needed
 
 | Phase | ID  | What to Capture                                                 |
 | ----- | --- | --------------------------------------------------------------- |
