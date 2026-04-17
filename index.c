@@ -16,7 +16,7 @@ IndexEntry* index_find(Index *index, const char *path) {
         if (strcmp(index->entries[i].path, path) == 0)
             return &index->entries[i];
     }
-    return NULL;
+      return NULL;
 }
 
 int index_remove(Index *index, const char *path) {
