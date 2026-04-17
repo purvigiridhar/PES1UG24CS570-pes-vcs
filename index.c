@@ -1,4 +1,4 @@
-    // index.c — Staging area implementation
+// index.c — Staging area implementation
 
 #include "index.h"
 #include <stdio.h>
@@ -41,8 +41,8 @@ int index_status(const Index *index) {
         printf("  staged:     %s\n", index->entries[i].path);
         staged_count++;
     }
-    if (staged_count == 0) printf("  (nothing to show)\n");
-    printf("\n");
+	    if (staged_count == 0) printf("  (nothing to show)\n");
+    printf("\n"):
 
     printf("Unstaged changes:\n");
     int unstaged_count = 0;
