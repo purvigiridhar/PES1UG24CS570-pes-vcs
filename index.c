@@ -42,7 +42,7 @@ int index_status(const Index *index) {
         staged_count++;
     }
 	    if (staged_count == 0) printf("  (nothing to show)\n");
-    printf("\n"):
+    printf("\n");
 
     printf("Unstaged changes:\n");
     int unstaged_count = 0;
